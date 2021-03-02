@@ -1,0 +1,109 @@
+/* color del nav #8BC34A*/
+/*color de la fuente #666*/
+body{
+    color:#666
+}
+
+header{
+    height: 64px;
+    background-color: #8BC34A;
+    
+}
+
+.logo{
+    padding: 10px;
+    width: 200px;
+}
+
+nav ul{
+    margin-right: 10px; /*para que no esten pegados al borde derecho las palabras*/
+float: right; /* para que los links se vayan a la derecha */
+padding: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+ nav ul li a{  /* esto es para q los hypervinculos no queden pegados */
+    padding: 10px;
+    color:white;
+    text-transform: uppercase;
+    
+}
+
+.splash{ 
+    /* center (en horiz) center (en vertical) fixed (posicion absoluta)*/
+    background: url(../images/Sin\ título.png) center center fixed; /*el .. sale de la carpeta en la que esta, sale de style, va a css y ahi si puedo buscar*/
+    background-size: cover; /*que cubra toda la pantalla*/
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.splash h1{
+    background:black;
+    color:white;
+    display: inline-block; /*antes quedaba el backg largo, y si yo lo quiero solo del tamaño del titulo, como es en block le tengo que poner inline/* */
+    padding: 10px;
+    font-size: 30px;
+}
+
+.txt{
+    margin-top: 40vh;
+
+    }
+
+.splash .btn{
+        
+    background: #8BC34A;
+    color:white
+    }
+
+.centrado{
+    text-align: center;
+}
+
+.espacios {
+    /* margin-top: 100px;
+    margin-bottom: 100px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content{
+    padding: 20px;
+}
+
+.card .btn{
+    background: #49385e;
+    color:white
+}  
+
+.card .btn{
+    float: right ;  
+}
+
+#letritas{
+    background: #f2f2f2;
+}
+
+#letritas i{
+    color:#8BC34A;
+}
+
+.pintadito{
+    background: #999;
+    padding: 2px;
+    font-size: 30px;
+    color: white;
+}
+
+.frase i {
+    font-size: 100px;
+}
+
+.frase{
+    padding: 30px;
+}
